@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yn.esat.web", "yn.esat.web\yn.esat.web.csproj", "{5A44A9DB-4F19-41EB-8C24-E32E9B6F5237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A44A9DB-4F19-41EB-8C24-E32E9B6F5237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A44A9DB-4F19-41EB-8C24-E32E9B6F5237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A44A9DB-4F19-41EB-8C24-E32E9B6F5237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A44A9DB-4F19-41EB-8C24-E32E9B6F5237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC2CEBF3-8DBE-4B25-B20D-1EEE01C4AC59}
+	EndGlobalSection
+EndGlobal
