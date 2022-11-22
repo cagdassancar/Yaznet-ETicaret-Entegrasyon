@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yn.esat.web", "yn.esat.web\yn.esat.web.csproj", "{18F91616-D1DB-4086-A2A6-F4CCF2A2E11D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hess.WebAdmin", "Hess.WebAdmin\Hess.WebAdmin.csproj", "{5944115B-0029-4B49-8868-0550AD52E7C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{18F91616-D1DB-4086-A2A6-F4CCF2A2E11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18F91616-D1DB-4086-A2A6-F4CCF2A2E11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18F91616-D1DB-4086-A2A6-F4CCF2A2E11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18F91616-D1DB-4086-A2A6-F4CCF2A2E11D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5944115B-0029-4B49-8868-0550AD52E7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5944115B-0029-4B49-8868-0550AD52E7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5944115B-0029-4B49-8868-0550AD52E7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5944115B-0029-4B49-8868-0550AD52E7C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
