@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Hess.ProductService")]
+[assembly: AssemblyTitle("Hess.Product.Service")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Hess.ProductService")]
+[assembly: AssemblyProduct("Hess.Product.Service")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("fd66ee69-9485-4d1e-9395-730a8344c20c")]
+[assembly: Guid("1aac1ab9-72fa-4c40-bf0f-f5b30ff60383")]
 
 // Version information for an assembly consists of the following four values:
 //
