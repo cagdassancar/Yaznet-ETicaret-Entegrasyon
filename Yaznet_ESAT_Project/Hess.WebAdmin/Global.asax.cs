@@ -8,10 +8,11 @@ using System.Web.Routing;
 
 namespace Hess.WebAdmin
 {
-    public class MvcApplication : System.Web.HttpApplication
+    public class MvcApplication : Hess.Core.Licances.LicancesInformation
     {
         protected void Application_Start()
         {
+            Hess.Core.UtilityObjects.Globals.Initialize();
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,8 +43,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exceptions\HessLog.cs" />
+    <Compile Include="Licances\LicanceInformation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UtilityObjects\ConfigOpt.cs" />
     <Compile Include="UtilityObjects\FileOpt.cs" />
+    <Compile Include="UtilityObjects\Globals.cs" />
+    <Compile Include="UtilityObjects\HashOpt.cs" />
+    <Compile Include="UtilityObjects\HelperOpt.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

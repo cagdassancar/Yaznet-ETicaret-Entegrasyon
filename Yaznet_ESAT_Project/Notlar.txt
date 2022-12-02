@@ -1,0 +1,39 @@
+***** Migration Codes ******
+
+Install-Package EntityFramework
+
+Database.Connection.ConnectionString="server=serverAdý; database=veritabanýAdý; trusted_connection=true;";
+
+enable-migrations –EnableAutomaticMigration:$true
+
+
+update-database
+
+PluralizingTableNameConvention
+
+
+
+Add-Migration Version_1002
+
+enable-Migrations -ContextTypeName Hess.DataLayer.Context.HessIdentityDBContext -MigrationsDirectory Migrations/Identity
+enable-Migrations -ContextTypeName Hess.DataLayer.Context.HessShopDBContext -MigrationsDirectory Migrations/Shop
+
+ContextKey = "HessIdentityDBContext";
+
+
+add-migration -ConfigurationTypeName Hess.DataLayer.Migrations.Identity.Configuration "V1001"
+add-migration -ConfigurationTypeName Hess.DataLayer.Migrations.Shop.Configuration "V1001"
+
+
+
+
+
+
+
+
+Add-Migration [-Name] <String> [-Force] [-ProjectName <String>] [-StartUpProjectName <String>] 
+  [-ConfigurationTypeName <String>] [-ConnectionStringName <String>] [-IgnoreChanges] 
+  [-AppDomainBaseDirectory <String>] [<CommonParameters>]
+
+
+****************************
