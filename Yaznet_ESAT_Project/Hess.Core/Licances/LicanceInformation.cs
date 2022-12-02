@@ -16,9 +16,7 @@ namespace Hess.Core.Licances
         public static void LicInitialize()
         {
             string licKey = "licansAnahta|-1|*|Free|Element|10|30|2022-12-01|2022-12-30";
-            generateKeys();
-            byte[] encrypted = Encrypt(Encoding.UTF8.GetBytes(licKey));
-            byte[] decrypted = Decrypt(encrypted);
+            
 
 
             #region Write Example
