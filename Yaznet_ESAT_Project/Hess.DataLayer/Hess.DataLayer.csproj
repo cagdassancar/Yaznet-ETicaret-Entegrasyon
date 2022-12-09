@@ -18,12 +18,13 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
+    <DebugType>embedded</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -32,6 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -52,23 +54,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\HessIdentityDBContext.cs" />
-    <Compile Include="Context\HessShopDBContext.cs" />
+    <Compile Include="Context\HessStoreDBContext.cs" />
     <Compile Include="DTO\Identity\TBL_CompanyLogins.cs" />
     <Compile Include="DTO\Identity\TBL_Companys.cs" />
-    <Compile Include="DTO\Identity\TBL_CompanyShops.cs" />
+    <Compile Include="DTO\Identity\TBL_CompanyStores.cs" />
     <Compile Include="DTO\Identity\TBL_CompanyTask.cs" />
-    <Compile Include="DTO\Shop\TBL_Products.cs" />
-    <Compile Include="DTO\Shop\TBL_ProductDetails.cs" />
+    <Compile Include="DTO\Store\TBL_ProductDetails.cs" />
+    <Compile Include="DTO\Store\TBL_Products.cs" />
     <Compile Include="Migrations\Identity\Configuration.cs" />
-    <Compile Include="Migrations\Identity\Versions\202211281213351_V1001.cs" />
-    <Compile Include="Migrations\Identity\Versions\202211281213351_V1001.designer.cs">
-      <DependentUpon>202211281213351_V1001.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Shop\Configuration.cs" />
-    <Compile Include="Migrations\Shop\Versions\202211281410107_V1001.cs" />
-    <Compile Include="Migrations\Shop\Versions\202211281410107_V1001.designer.cs">
-      <DependentUpon>202211281410107_V1001.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Migrations\Store\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -82,14 +76,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\Identity\Versions\202211281213351_V1001.resx">
-      <DependentUpon>202211281213351_V1001.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\Shop\Versions\202211281410107_V1001.resx">
-      <DependentUpon>202211281410107_V1001.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

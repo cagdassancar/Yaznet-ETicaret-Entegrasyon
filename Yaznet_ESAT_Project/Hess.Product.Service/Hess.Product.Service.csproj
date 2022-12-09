@@ -7,7 +7,7 @@
     <ProjectGuid>{1AAC1AB9-72FA-4C40-BF0F-F5B30FF60383}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Hess.Product.Service</RootNamespace>
-    <AssemblyName>Hess.Product.Service</AssemblyName>
+    <AssemblyName>ProductService</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

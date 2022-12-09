@@ -1,18 +1,18 @@
-﻿using System.Data.Entity;
+﻿using Hess.DataLayer.DTO.Store;
+using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using Hess.DataLayer.DTO.Shop;
+
 
 namespace Hess.DataLayer.Context
 {
-  
 
-    public class HessShopDBContext : DbContext
+
+    public class HessStoreDBContext : DbContext
     {
-        
-        public HessShopDBContext() :base()
+
+        public HessStoreDBContext() : base()
         {
-            this.Database.Connection.ConnectionString = Core.UtilityObjects.Globals.ShopDBConnStr;
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<HessShopDBContext, Migrations.Shop.Configuration>());
+            this.Database.Connection.ConnectionString = Core.UtilityObjects.Globals.StoreDBConnStr;           
 
         }
 
@@ -45,9 +45,7 @@ namespace Hess.DataLayer.Context
             //    .IsUnique();
             #endregion
 
-            #region TBL_Products
-            // modelBuilder.Entity<TBL_Products>().HasIndex(p => p.ProductCode).IsUnique();
-            #endregion
+
 
 
 

@@ -8,7 +8,7 @@ using System.Web.Routing;
 
 namespace Hess.WebAdmin
 {
-    public class MvcApplication : Hess.Core.Licances.LicancesInformation
+    public class MvcApplication
     {
         protected void Application_Start()
         {

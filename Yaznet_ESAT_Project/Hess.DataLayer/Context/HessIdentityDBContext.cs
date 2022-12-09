@@ -22,7 +22,7 @@ namespace Hess.DataLayer.Context
 
         public DbSet<TBL_Companys> TBL_Companys { get; set; }
         public DbSet<TBL_CompanyLogins> TBL_CompanyLogins { get; set; }
-        public DbSet<TBL_CompanyShops> TBL_CompanyShops { get; set; }
+        public DbSet<TBL_CompanyStores> TBL_CompanyStores { get; set; }
         public DbSet<TBL_CompanyTask> TBL_CompanyTask { get; set; }        
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

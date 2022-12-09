@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Hess.DataLayer.DTO.Shop
+
+namespace Hess.DataLayer.DTO.Store
 {
     public class TBL_ProductDetails
     {
-        
-        [Key,ForeignKey("TBL_Products")]
+
+        [Key, ForeignKey("TBL_Products")]
         public Int64 Product_ID { get; set; }
 
         [Column(TypeName = "varchar"), MaxLength(200)]

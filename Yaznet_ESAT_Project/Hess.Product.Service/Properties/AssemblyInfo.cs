@@ -5,13 +5,14 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Hess.Product.Service")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("ProductService")]
+[assembly: AssemblyDescription("Hess Store Product Service")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Hess.Product.Service")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Yaznet Bilişim Teknolojileri LTD. ŞTİ.")]
+[assembly: AssemblyProduct("Hess Product Service")]
+[assembly: AssemblyCopyright("© Yaznet Bilişim Teknolojileri LTD. ŞTİ. All rights reserved")]
+[assembly: AssemblyTrademark("Yaznet Bilişim Teknolojileri LTD. ŞTİ.")]
+[assembly: AssemblyMetadata("cagdassancarbarlaz","yaznetbilisim")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

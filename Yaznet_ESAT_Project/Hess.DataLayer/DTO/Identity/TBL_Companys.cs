@@ -25,6 +25,6 @@ namespace Hess.DataLayer.DTO.Identity
         public virtual IEnumerable<TBL_CompanyLogins> TBL_CompanyLogins { get; set; }
 
         [Required]
-        public virtual IEnumerable<TBL_CompanyShops> TBL_CompanyShops { get; set; }
+        public virtual IEnumerable<TBL_CompanyStores> TBL_CompanyStores { get; set; }
     }
 }

@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Hess.DataLayer.DTO.Identity
 {
+    
     public class TBL_CompanyTask
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -12,6 +13,9 @@ namespace Hess.DataLayer.DTO.Identity
 
         [Required, ForeignKey("TBL_Companys")]
         public string Company_ID { get; set; }
+
+        [Required, ForeignKey("TBL_CompanyStores")]
+        public string Store_ID { get; set; }
 
         [Required]
         public int Task_ID { get; set; }
@@ -29,5 +33,6 @@ namespace Hess.DataLayer.DTO.Identity
 
 
         public virtual TBL_Companys TBL_Companys { get; set; }
+        public virtual TBL_CompanyStores TBL_CompanyStores { get; set; }
     }
 }
